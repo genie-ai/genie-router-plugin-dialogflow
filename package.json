@@ -1,0 +1,34 @@
+{
+  "name": "genie-router-plugin-api-ai",
+  "version": "1.0.0",
+  "description": "A genie router plugin that enables api.ai as the brain for genie-router.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matueranet/genie-router-plugin-api-ai.git"
+  },
+  "keywords": [
+    "genie-router",
+    "genie",
+    "plugin",
+    "superplug",
+    "api.ai",
+    "chat"
+  ],
+  "author": "matueranet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matueranet/genie-router-plugin-api-ai/issues"
+  },
+  "homepage": "https://github.com/matueranet/genie-router-plugin-api-ai#readme",
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "api.ai": "^1.0.3",
+    "uuid": "^3.1.0"
+  }
+}
