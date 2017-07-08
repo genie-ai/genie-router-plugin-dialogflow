@@ -1,5 +1,5 @@
 {
-  "name": "genie-router-plugin-api-ai",
+  "name": "genie-router-plugin-api.ai",
   "version": "1.0.0",
   "description": "A genie router plugin that enables api.ai as the brain for genie-router.",
   "main": "index.js",
