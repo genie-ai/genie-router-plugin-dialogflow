@@ -1,6 +1,6 @@
 {
-  "name": "genie-router-plugin-api.ai",
-  "version": "1.0.0",
+  "name": "genie-router-plugin-dialogflow",
+  "version": "2.0.0",
   "description": "A genie router plugin that enables api.ai as the brain for genie-router.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matueranet/genie-router-plugin-api-ai.git"
+    "url": "git+https://github.com/matueranet/genie-router-plugin-dialogflow.git"
   },
   "keywords": [
     "genie-router",
@@ -16,23 +16,23 @@
     "plugin",
     "superplug",
     "api.ai",
+    "dialogflow",
     "chat"
   ],
   "author": "matueranet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matueranet/genie-router-plugin-api-ai/issues"
+    "url": "https://github.com/matueranet/genie-router-plugin-dialogflow/issues"
   },
-  "homepage": "https://github.com/matueranet/genie-router-plugin-api-ai#readme",
+  "homepage": "https://github.com/matueranet/genie-router-plugin-dialogflow#readme",
   "devDependencies": {
     "standard": "^10.0.2"
   },
   "dependencies": {
     "api.ai": "^1.0.3",
-    "debug": "^2.6.8",
-    "uuid": "^3.1.0"
+    "debug": "^2.6.8"
   },
   "genieRouterPlugin": {
-    "name": "api-ai"
+    "name": "dialogflow"
   }
 }
