@@ -1,14 +1,17 @@
 {
-  "name": "genie-router-plugin-dialogflow",
-  "version": "2.0.0",
-  "description": "A genie router plugin that enables api.ai as the brain for genie-router.",
+  "name": "@genie-ai/genie-router-plugin-dialogflow",
+  "version": "3.0.0",
+  "description": "A genie router plugin that enables dialogflow as the brain for genie-router.",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matueranet/genie-router-plugin-dialogflow.git"
+    "url": "git+https://github.com/genie-ai/genie-router-plugin-dialogflow.git"
+  },
+  "engines": {
+    "node": ">=8.10"
   },
   "keywords": [
     "genie-router",
@@ -22,17 +25,20 @@
   "author": "matueranet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matueranet/genie-router-plugin-dialogflow/issues"
+    "url": "https://github.com/genie-ai/genie-router-plugin-dialogflow/issues"
   },
-  "homepage": "https://github.com/matueranet/genie-router-plugin-dialogflow#readme",
+  "homepage": "https://github.com/genie-ai/genie-router-plugin-dialogflow#readme",
   "devDependencies": {
-    "standard": "^10.0.2"
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.9.0"
   },
   "dependencies": {
-    "api.ai": "^1.0.3",
-    "debug": "^2.6.8"
+    "debug": "^3.1.0",
+    "dialogflow": "^0.6.0"
   },
   "genieRouterPlugin": {
-    "name": "dialogflow"
+    "name": "dialogflow",
+    "apiVersion": "1.0.0"
   }
 }
